@@ -17,5 +17,6 @@ def oxford_comma(array)
     return x_array
   else
     array.split
+    return array
   end
 end
