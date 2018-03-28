@@ -7,6 +7,7 @@ def oxford_comma(array)
     array.each do |i|
       i.join(" and ")
     end
+    return i
   elsif array.length == 3
     array.each do |i|
       i.join(",")
