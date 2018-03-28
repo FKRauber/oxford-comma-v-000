@@ -10,7 +10,7 @@ def oxford_comma(array)
     end
   elsif array.length == 3
     array.each do |i|
-      i_array.push(i.join(", "))
+      i_array.push(i.join(","))
     end
   else
     array.split
