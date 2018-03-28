@@ -4,16 +4,14 @@ def oxford_comma(array)
       return i
     end
   elsif array.length == 2
-    i_array = Array.new
     array.each do |i|
-      i_array.push(i.join("and"))
+      i.join("and")
     end
   elsif array.length == 3
     array.each do |i|
-      i_array.push(i.join(","))
+      i.join(",")
     end
   else
     array.split
   end
-  puts i_array
 end
